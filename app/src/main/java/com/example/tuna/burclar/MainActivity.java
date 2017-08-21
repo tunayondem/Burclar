@@ -1,5 +1,6 @@
 package com.example.tuna.burclar;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,10 +13,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
+    ImageButton burc1, burc2, burc3, burc4, burc5, burc6, burc7, burc8, burc9, burc10, burc11, burc12;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,14 +25,20 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
+
+        burc1 = (ImageButton) findViewById(R.id.button_burc1);
+        burc2 = (ImageButton) findViewById(R.id.button_burc2);
+        burc3 = (ImageButton) findViewById(R.id.button_burc3);
+        burc4 = (ImageButton) findViewById(R.id.button_burc4);
+        burc5 = (ImageButton) findViewById(R.id.button_burc5);
+        burc6 = (ImageButton) findViewById(R.id.button_burc6);
+        burc7 = (ImageButton) findViewById(R.id.button_burc7);
+        burc8 = (ImageButton) findViewById(R.id.button_burc8);
+        burc9 = (ImageButton) findViewById(R.id.button_burc9);
+        burc10 = (ImageButton) findViewById(R.id.button_burc10);
+        burc11 = (ImageButton) findViewById(R.id.button_burc11);
+        burc12 = (ImageButton) findViewById(R.id.button_burc12);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -98,4 +106,12 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+    public void burc1(View view){
+        startActivity(new Intent(getApplicationContext(),KocActivity.class));
+    }
+
+
 }
+
+
+

@@ -8,13 +8,550 @@
     tools:context="com.example.tuna.burclar.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_gravity="center"
+                    android:layout_width="114dp"
+                    android:layout_height="140dp"
+                    card_view:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:id="@+id/button_burc1"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@color/yesil1"
+                            android:onClick="burc1"
+                            android:scaleType="centerInside"
+                            android:src="@mipmap/burc_koc" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/koc"
+                            android:layout_marginTop="4dp"
+                            android:textColor="@color/yazi"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/koc_tarihi"
+                            android:textSize="11sp"
+                            android:textColor="@color/yazi"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_gravity="center"
+                    android:layout_width="114dp"
+                    android:layout_height="140dp"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_marginStart="12dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:id="@+id/button_burc2"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@color/yesil1"
+                            android:onClick="burc2"
+                            android:scaleType="centerInside"
+                            android:src="@mipmap/burc_boga" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/boga"
+                            android:layout_marginTop="4dp"
+                            android:textColor="@color/yazi"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/boga_tarihi"
+                            android:textSize="11sp"
+                            android:textColor="@color/yazi"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_gravity="center"
+                    android:layout_width="114dp"
+                    android:layout_height="140dp"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_marginStart="12dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:id="@+id/button_burc3"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@color/yesil1"
+                            android:onClick="burc3"
+                            android:scaleType="centerInside"
+                            android:src="@mipmap/burc_ikizler" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/ikizler"
+                            android:layout_marginTop="4dp"
+                            android:textColor="@color/yazi"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/ikizler_tarihi"
+                            android:textSize="11sp"
+                            android:textColor="@color/yazi"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="114dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/button_burc4"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@color/yesil2"
+                            android:onClick="burc4"
+                            android:scaleType="centerInside"
+                            android:src="@mipmap/burc_yengec" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center"
+                            android:text="@string/yengec"
+                            android:textColor="@color/yazi" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center"
+                            android:text="@string/yengec_tarihi"
+                            android:textColor="@color/yazi"
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="114dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="12dp"
+                    card_view:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/button_burc5"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@color/yesil2"
+                            android:onClick="burc5"
+                            android:scaleType="centerInside"
+                            android:src="@mipmap/burc_aslan" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center"
+                            android:text="@string/aslan"
+                            android:textColor="@color/yazi" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center"
+                            android:text="@string/aslan_tarihi"
+                            android:textColor="@color/yazi"
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="114dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="12dp"
+                    card_view:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/button_burc6"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@color/yesil2"
+                            android:onClick="burc6"
+                            android:scaleType="centerInside"
+                            android:src="@mipmap/burc_basak" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center"
+                            android:text="@string/basak"
+                            android:textColor="@color/yazi" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:gravity="center"
+                            android:text="@string/basak_tarihi"
+                            android:textColor="@color/yazi"
+                            android:textSize="11sp" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_gravity="center"
+                    android:layout_width="114dp"
+                    android:layout_height="140dp"
+                    card_view:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:id="@+id/button_burc7"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@color/yesil3"
+                            android:onClick="burc7"
+                            android:scaleType="centerInside"
+                            android:src="@mipmap/burc_terazi" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/terazi"
+                            android:layout_marginTop="4dp"
+                            android:textColor="@color/yazi"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/terazi_tarihi"
+                            android:textSize="11sp"
+                            android:textColor="@color/yazi"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_gravity="center"
+                    android:layout_width="114dp"
+                    android:layout_height="140dp"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_marginStart="12dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:id="@+id/button_burc8"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@color/yesil3"
+                            android:onClick="burc8"
+                            android:scaleType="centerInside"
+                            android:src="@mipmap/burc_akrep" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/akrep"
+                            android:layout_marginTop="4dp"
+                            android:textColor="@color/yazi"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/akrep_tarihi"
+                            android:textSize="11sp"
+                            android:textColor="@color/yazi"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_gravity="center"
+                    android:layout_width="114dp"
+                    android:layout_height="140dp"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_marginStart="12dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:id="@+id/button_burc9"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@color/yesil3"
+                            android:onClick="burc9"
+                            android:scaleType="centerInside"
+                            android:src="@mipmap/burc_yay" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/yay"
+                            android:layout_marginTop="4dp"
+                            android:textColor="@color/yazi"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/yay_tarihi"
+                            android:textSize="11sp"
+                            android:textColor="@color/yazi"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_gravity="center"
+                    android:layout_width="114dp"
+                    android:layout_height="140dp"
+                    card_view:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:id="@+id/button_burc10"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@color/yesil4"
+                            android:onClick="burc10"
+                            android:scaleType="centerInside"
+                            android:src="@mipmap/burc_oglak" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/oglak"
+                            android:layout_marginTop="4dp"
+                            android:textColor="@color/yazi"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/oglak_tarihi"
+                            android:textSize="11sp"
+                            android:textColor="@color/yazi"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_gravity="center"
+                    android:layout_width="114dp"
+                    android:layout_height="140dp"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_marginStart="12dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:id="@+id/button_burc11"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@color/yesil4"
+                            android:onClick="burc11"
+                            android:scaleType="centerInside"
+                            android:src="@mipmap/burc_kova" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/kova"
+                            android:layout_marginTop="4dp"
+                            android:textColor="@color/yazi"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/kova_tarihi"
+                            android:textSize="11sp"
+                            android:textColor="@color/yazi"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_gravity="center"
+                    android:layout_width="114dp"
+                    android:layout_height="140dp"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_marginStart="12dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:id="@+id/button_burc12"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@color/yesil4"
+                            android:onClick="burc12"
+                            android:scaleType="centerInside"
+                            android:src="@mipmap/burc_balik" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/balik"
+                            android:layout_marginTop="4dp"
+                            android:textColor="@color/yazi"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/balik_tarihi"
+                            android:textSize="11sp"
+                            android:textColor="@color/yazi"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
