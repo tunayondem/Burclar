@@ -8,12 +8,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class KocActivity extends AppCompatActivity {
+public class BogaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_koc);
+        setContentView(R.layout.activity_boga);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -23,7 +23,7 @@ public class KocActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent sendIntent = new Intent();
                 sendIntent.setAction(Intent.ACTION_SEND);
-                sendIntent.putExtra(Intent.EXTRA_TEXT, getString(R.string.Koc_yazi));
+                sendIntent.putExtra(Intent.EXTRA_TEXT, getString(R.string.boga_yazi));
                 sendIntent.setType("text/plain");
                 startActivity(sendIntent);
             }

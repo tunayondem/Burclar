@@ -29,6 +29,50 @@
         <activity
             android:name=".KocActivity"
             android:label="@string/title_activity_koc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AkrepActivity"
+            android:label="@string/title_activity_akrep"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AslanActivity"
+            android:label="@string/title_activity_aslan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BalikActivity"
+            android:label="@string/title_activity_balik"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BasakActivity"
+            android:label="@string/title_activity_basak"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BogaActivity"
+            android:label="@string/title_activity_boga"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".IkizlerActivity"
+            android:label="@string/title_activity_ikizler"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".YengecActivity"
+            android:label="@string/title_activity_yengec"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TeraziActivity"
+            android:label="@string/title_activity_terazi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".YayActivity"
+            android:label="@string/title_activity_yay"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OglakActivity"
+            android:label="@string/title_activity_oglak"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KovaActivity"
+            android:label="@string/title_activity_kova"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

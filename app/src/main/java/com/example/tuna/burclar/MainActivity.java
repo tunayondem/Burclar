@@ -88,17 +88,17 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_burc_ozellik) {
+            startActivity(new Intent(getApplicationContext(),MainActivity.class));
+        } else if (id == R.id.nav_burc_uyum) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_cin) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_biz) {
 
         } else if (id == R.id.nav_share) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_puan) {
 
         }
 
@@ -108,6 +108,49 @@ public class MainActivity extends AppCompatActivity
     }
     public void burc1(View view){
         startActivity(new Intent(getApplicationContext(),KocActivity.class));
+    }
+    public void burc2(View view){
+        startActivity(new Intent(getApplicationContext(),BogaActivity.class));
+    }
+
+    public void burc3(View view) {
+        startActivity(new Intent(getApplicationContext(),IkizlerActivity.class));
+    }
+
+    public void burc4 (View view){
+        startActivity(new Intent(getApplicationContext(),YengecActivity.class));
+    }
+
+    public void burc5 (View view){
+        startActivity(new Intent(getApplicationContext(), AslanActivity.class));
+    }
+
+    public void burc6 (View view){
+        startActivity(new Intent(getApplicationContext(),BasakActivity.class));
+    }
+
+    public void burc7 (View view){
+        startActivity(new Intent(getApplicationContext(),TeraziActivity.class));
+    }
+
+    public void burc8 (View view){
+        startActivity(new Intent(getApplicationContext(),AkrepActivity.class));
+    }
+
+    public void burc9 (View view){
+        startActivity(new Intent(getApplicationContext(),YayActivity.class));
+    }
+
+    public  void burc10 (View view){
+        startActivity(new Intent(getApplicationContext(),OglakActivity.class));
+    }
+
+    public void burc11(View view){
+        startActivity(new Intent(getApplicationContext(),KovaActivity.class));
+    }
+
+    public void burc12(View view){
+        startActivity(new Intent(getApplicationContext(),BalikActivity.class));
     }
 
 

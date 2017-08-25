@@ -8,16 +8,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class KocActivity extends AppCompatActivity {
+public class IkizlerActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_koc);
+        setContentView(R.layout.activity_ikizler);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.share_koc);
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.share_ikizler);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

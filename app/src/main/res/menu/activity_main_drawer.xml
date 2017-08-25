@@ -3,33 +3,33 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_burc_ozellik"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="Burç Özellikleri" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_burc_uyum"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="Burç Uyumu" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_cin"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="Çin Astrolojisi" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_biz"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Hakkımızda" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Uygulama">
         <menu>
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Paylaş" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_puan"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="Puan Ver" />
         </menu>
     </item>
 
