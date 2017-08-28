@@ -73,7 +73,8 @@
         <activity
             android:name=".KovaActivity"
             android:label="@string/title_activity_kova"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".BurcUyumu"></activity>
     </application>
 
 </manifest>

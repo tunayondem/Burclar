@@ -17,7 +17,7 @@ public class BogaActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.share_koc);
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.share_boga);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

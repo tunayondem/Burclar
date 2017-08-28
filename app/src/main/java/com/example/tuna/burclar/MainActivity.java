@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_burc_ozellik) {
             startActivity(new Intent(getApplicationContext(),MainActivity.class));
         } else if (id == R.id.nav_burc_uyum) {
-
+            startActivity(new Intent(getApplicationContext(),BurcUyumu.class));
         } else if (id == R.id.nav_cin) {
 
         } else if (id == R.id.nav_biz) {

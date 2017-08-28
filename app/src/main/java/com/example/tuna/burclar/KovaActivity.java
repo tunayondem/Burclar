@@ -17,13 +17,13 @@ public class KovaActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.share_kova;
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.share_kova);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent sendIntent = new Intent();
                 sendIntent.setAction(Intent.ACTION_SEND);
-                sendIntent.putExtra(Intent.EXTRA_TEXT, getString(R.string.Kova_yazi));
+                sendIntent.putExtra(Intent.EXTRA_TEXT, getString(R.string.Koc_yazi));
                 sendIntent.setType("text/plain");
                 startActivity(sendIntent);
             }

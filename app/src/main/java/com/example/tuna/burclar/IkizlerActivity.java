@@ -23,7 +23,7 @@ public class IkizlerActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent sendIntent = new Intent();
                 sendIntent.setAction(Intent.ACTION_SEND);
-                sendIntent.putExtra(Intent.EXTRA_TEXT, getString(R.string.Koc_yazi));
+                sendIntent.putExtra(Intent.EXTRA_TEXT, getString(R.string.ikizler_yazi));
                 sendIntent.setType("text/plain");
                 startActivity(sendIntent);
             }
