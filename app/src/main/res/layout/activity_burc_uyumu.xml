@@ -19,14 +19,14 @@
         android:layout_marginBottom="100dp">
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/uyum1"
             android:layout_width="140dp"
             android:layout_height="114dp"
             android:layout_marginRight="60dp"
             app:srcCompat="@mipmap/burc_akrep" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/uyum2"
             android:layout_width="140dp"
             android:layout_height="114dp"
 
