@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_burc_uyum) {
             startActivity(new Intent(getApplicationContext(),BurcUyumu.class));
         } else if (id == R.id.nav_cin) {
-
+            startActivity(new Intent(getApplicationContext(),CinAstrolojisi.class));
         } else if (id == R.id.nav_biz) {
 
         } else if (id == R.id.nav_share) {

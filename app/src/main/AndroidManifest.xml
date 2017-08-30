@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/logo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -74,7 +74,8 @@
             android:name=".KovaActivity"
             android:label="@string/title_activity_kova"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".BurcUyumu"></activity>
+        <activity android:name=".BurcUyumu" />
+        <activity android:name=".CinAstrolojisi"></activity>
     </application>
 
 </manifest>
